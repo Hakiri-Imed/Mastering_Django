@@ -1,0 +1,125 @@
+[1. ما هو Django؟
+   - Django هو إطار عمل لتطوير تطبيقات ويب باستخدام لغة البرمجة Python.
+
+2. ما هي فوائد استخدام Django؟
+   - سرعة التطوير، إدارة قاعدة البيانات، إعادة استخدام الشفرة، الأمان المدمج، والتوثيق الجيد.
+
+3. ما هو الـ ORM في Django؟
+   - ORM تعني "Object-Relational Mapping" وهو طريقة للتفاعل مع قواعد البيانات باستخدام كائنات برمجية.
+
+4. كيف تقوم بإنشاء مشروع جديد في Django؟
+   - يُنشئ مشروع جديد باستخدام الأمر `django-admin startproject projectname`.
+
+5. ما هو التطبيق في Django؟
+   - التطبيق هو جزء من مشروع Django يحتوي على مجموعة من النماذج وعروض المشاهدة والملفات الثابتة.
+
+6. كيف تُضيف تطبيق جديد إلى مشروع Django؟
+   - باستخدام الأمر `python manage.py startapp appname`.
+
+7. ما هي النماذج (Models) في Django؟
+   - النماذج هي تمثيل لجداول قاعدة البيانات وتعرف الحقول والعلاقات بينها.
+
+8. كيف تُنشئ نموذج في Django؟
+   - يتم تعريف النموذج باستخدام الفئات والحقول في ملف `models.py`.
+
+9. ما هي علاقات قواعد البيانات في Django؟
+   - العلاقات تعرف كيف يرتبط نموذج واحد بنموذج آخر (علاقات واحد-إلى-واحد، واحد-إلى-كثير، كثير-إلى-واحد).
+
+10. كيف تقوم بإجراء استعلامات (Queries) في Django؟
+    - باستخدام واجهة التحكم في الاستعلامات (QuerySet API) للبحث عن السجلات في قاعدة البيانات.
+
+
+11. ما هو ملف `urls.py` في Django؟
+    - يستخدم لتعريف أنماط عناوين URL وربطها بدوال المشاهدة.
+
+12. ما هو الـ Template في Django؟
+    - القوالب هي ملفات تحتوي على تخطيط الصفحة وتعرض البيانات التي تمرر إليها.
+
+13. كيفية إنشاء عرض (View) في Django؟
+    - باستخدام الدوال الموجودة في ملف `views.py`، وتقوم بإرجاع القوالب أو البيانات المناسبة.
+
+14. ما هي Middleware في Django؟
+    - Middleware هو طبقة تطبيق تتيح لك تنفيذ أكواد قبل وبعد معالجة الطلبات والاستجابات.
+
+15. ما هو ملف `settings.py` في Django؟
+    - يحتوي على إعدادات المشروع مثل قاعدة البيانات والتوثيق والإعدادات العامة.
+
+16. ما هي عملية Migrations في Django؟
+    - Migrations تتيح لك تحديث قاعدة البيانات بناءً على تغييراتك في النماذج.
+
+17. كيف تنفذ Migration في Django؟
+    - باستخدام الأمر `python manage.py makemigrations` ثم `python manage.py migrate`.
+
+18. ما هو الـ Admin Panel في Django؟
+    - واجهة إدارية تسمح لك بإدارة نماذج قاعدة البيانات من خلال واجهة المشرف.
+
+19. كيف تخصص شكل واجهة الـ Admin Panel؟
+    - باستخدام ملفات القوالب وتمديد فئات `admin.ModelAdmin`.
+
+20. ما هو الـ Static Files في Django؟
+    - الملفات الثابتة مثل الصور والأنماط الأساسية التي يتم تقديمها مباشرة من الخادم.
+
+
+
+
+
+============================
+1. What is Django?
+   - Django is a framework for developing web applications using the Python programming language.
+
+2. What are the benefits of using Django?
+   - Rapid development, database management, code reusability, built-in security, and good documentation.
+
+3. What is ORM in Django?
+   - ORM stands for "Object-Relational Mapping," a method to interact with databases using software objects.
+
+4. How do you create a new project in Django?
+   - You create a new project using the command `django-admin startproject projectname`.
+
+5. What is an application in Django?
+   - An application is a part of a Django project that contains a collection of models, views, and static files.
+
+6. How do you add a new application to a Django project?
+   - By using the command `python manage.py startapp appname`.
+
+7. What are Models in Django?
+   - Models are representations of database tables defining fields and relationships between them.
+
+8. How do you create a model in Django?
+   - Models are defined using classes and fields in the `models.py` file.
+
+9. What are database relationships in Django?
+   - Relationships define how one model is related to another (one-to-one, one-to-many, many-to-one).
+
+10. How do you perform Queries in Django?
+    - By using the QuerySet API to search for records in the database.
+
+11. What is the `urls.py` file in Django?
+    - It is used to define URL patterns and link them to view functions.
+
+12. What is a Template in Django?
+    - Templates are files that contain page layouts and render data passed to them.
+
+13. How to create a View in Django?
+    - By using functions in the `views.py` file, which return templates or appropriate data.
+
+14. What is Middleware in Django?
+    - Middleware is an application layer that allows you to execute code before and after request/response processing.
+
+15. What is the `settings.py` file in Django?
+    - It contains project settings such as database configuration, authentication, and general settings.
+
+16. What is the process of Migrations in Django?
+    - Migrations allow you to update the database based on changes to your models.
+
+17. How do you execute a Migration in Django?
+    - By using the command `python manage.py makemigrations` followed by `python manage.py migrate`.
+
+18. What is the Admin Panel in Django?
+    - An administrative interface to manage database models through the admin interface.
+
+19. How do you customize the Admin Panel's appearance?
+    - By using template files and extending `admin.ModelAdmin` classes.
+
+20. What are Static Files in Django?
+    - Static files like images and basic styles served directly by the server.
